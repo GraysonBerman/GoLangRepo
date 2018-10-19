@@ -1,4 +1,4 @@
-Blog Post 1 (9/7/2018)
+#Blog Post 1 (9/7/2018)
 
 Parker and I (Grayson) decided to create a project using Go. 
 My older brother told me about the internet of things (IoT) and how Go is used for a lot of the devices.
