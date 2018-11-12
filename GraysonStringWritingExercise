@@ -1,0 +1,16 @@
+Exercise: String Rewriting
+Rules:
+  ab -> ba
+  ba -> ab
+  aa ->
+  b ->
+  
+  To reduce the strings 'abba' and 'bababa' we can apply any of the rules.
+  For the first string 'abba' I'll rewrite it using ab->ba, ba-->ab, and then aa -> .
+  abba -> baba -> baab -> bb
+  For the second string 'bababa', I'll rewrite it using b -> and a-> 
+  bababa -> ababa -> aaba -> aaa --> aa -> a --> 
+  
+  The ARS is not terminating because you can rewrite the strings indefinitely. If you use the two rules ab->ba and ba->ab
+  infinitely many times, there isn't any reduction. It's only rewriting.
+  //will add more later
