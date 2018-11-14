@@ -1,0 +1,25 @@
+Exercise: What are the rules for AND, OR, and NOT?
+ 
+A, B, and Out are all boolean values. The combination of inputs A and B leads to output Out
+
+AND:
+A|B|Out
+false|false|false
+false|true|false
+true|false|false
+true|true|true
+
+OR:
+A|B|Out
+false|false|false
+false|true|true
+true|false|true
+true|true|true
+
+NOT:
+A|B|Out
+false|false|true
+false|true|false
+true|false|false
+true|true| false
+
