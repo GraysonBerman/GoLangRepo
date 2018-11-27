@@ -1,3 +1,5 @@
+## Scripting in Go
+
 I asked my friend who graduated from UC Berkeley with a degree in computer science and electrical engineering about Go.
 He said that it's the most in demand scripting language.
 I didn't know the difference between scripting and programming.
