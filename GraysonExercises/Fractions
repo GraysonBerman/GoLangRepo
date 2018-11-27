@@ -1,6 +1,6 @@
-* 1) To simplify, we only consider positive fractions. Define an equivalence relation ≡ on the set ℕ×ℕ such that the set ℕ×ℕ/≡ of equivalence classes is in bijective correspondence with positive fractions. 
-*   (Hint: ≡ needs to capture that, eg, in mathematics 1/3=2/6; this will correspond to (1,3)≡(2,6).[2])
-* 2) Define an ARS (ℕ×ℕ,→) that has unique normal forms. Argue why your ARS has unique normal forms.
-* 3) Explain how to add and multiply normal forms.
+1) To simplify, we only consider positive fractions. Define an equivalence relation ≡ on the set ℕ×ℕ such that the set ℕ×ℕ/≡ of equivalence classes is in bijective correspondence with positive fractions. 
+  (Hint: ≡ needs to capture that, eg, in mathematics 1/3=2/6; this will correspond to (1,3)≡(2,6).[2])
+2) Define an ARS (ℕ×ℕ,→) that has unique normal forms. Argue why your ARS has unique normal forms.
+3) Explain how to add and multiply normal forms.
 
 
