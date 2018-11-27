@@ -9,6 +9,12 @@ false|true|false
 true|false|false
 true|true|true
 
+> yes ... if you want to write the same info as rewrite rules as in the lecture you would write
+> false AND false -> false (or = isntead of ->)
+> false AND ture -> false 
+> etc 
+
+
 OR:
 A|B|Out
 false|false|false
@@ -22,4 +28,7 @@ false|false|true
 false|true|false
 true|false|false
 true|true| false
+> NOT should take only one argument, not two
+
+> btw, if you give your files extension .md then they are rendered more nicely by github
 
