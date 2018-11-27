@@ -1,4 +1,4 @@
-Go loops are weird.
+## Go loops are weird.
 
 Unlike other high-level programming languages, Go only has one looping mechanism.
 Go exclusively uses for loops.
