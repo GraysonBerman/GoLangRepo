@@ -6,7 +6,7 @@ Use this video if you want to set up go on  mac: https://www.youtube.com/watch?v
 Use this video if you want to set up go on windows: https://www.youtube.com/watch?v=_b-9kcq-xmA
 
 
-There are a few steps...
+### There are a few steps...
 1) Install the Go pkg at https://golang.org/dl/ - select the version that is right for your OS.
 2) Set up the proper directory. You should set it to c:\go. You will be able to navigate there via terminal.
 If you don't set the filepath to c:\go, you need to set your GOROOT to your selected Go directory.
