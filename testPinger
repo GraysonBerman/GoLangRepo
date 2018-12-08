@@ -1,0 +1,47 @@
+//This code is testing multiple functions: pinging, reading and recording input from terminal, printing out to terminal
+//https://gobyexample.com/command-line-arguments
+//https://tutorialedge.net/golang/reading-console-input-golang/
+
+package main
+
+import (
+  "bufio"
+  "strings"
+  "os"
+  "fmt" //main package stuff (format)
+  "github.com/sparrc/go-ping" //ping packages
+)
+
+var websiteName string
+func main(){
+
+  //prompts user
+  fmt.Println("This program will ping a website of your choosing. If you get an error message, you're unable to ping that website.")
+  fmt.Println("Type in the website's name that you want to ping and then hit enter")
+  //creates reader
+  reader := bufio.NewReader(os.Stdin)
+  fmt.Println("--------------")
+  fmt.Print("->")
+  //text used to read input from user
+  text, _ := reader.ReadString('\n')
+  //convert CRLF to LF
+  text = strings.Replace(text, "\n", "", -1)
+
+  //assigns input to string websiteName
+  websiteName = text
+  fmt.Println("You are pinging", websiteName)
+
+  pinger, err := ping.NewPinger(websiteName) //pings this website
+  if err != nil{ //catches if there is an error pinging the website
+    fmt.Println("There was an error: you could not ping the website. There was no such host!")
+    panic(err)
+  }
+
+  //iterates pinger three times
+  pinger.Count = 3 //ping 3 times\
+  for i := 0; i < pinger.Count; i++ {
+    pinger.Run() //run pinger
+    stats := pinger.Statistics()
+    fmt.Printf("%v\n", stats.Addr)//stats = statistics, the struct is in github.com (has ping stuff)
+    }
+  }
