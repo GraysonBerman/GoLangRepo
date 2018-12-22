@@ -1,0 +1,12 @@
+I need to analyze the basic examples from earlier exercises and describe them in terms of a TRS.
+Signature, variables, equations:
+An equation is a pair (t,t′)∈TermΣ(X)×TermΣ(X)
+terms = elements of an ARS
+
+
+
+What is the signature/variable(s)/equation(s) for the string rewriting ARS?
+Well each reduction is an equation:
+aa->a would be an equation. The variable/terms are the a's. The signature is 
+
+... TBC
