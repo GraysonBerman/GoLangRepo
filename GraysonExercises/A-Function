@@ -1,0 +1,20 @@
+A-function defined by this recursive function:
+a(0,n) = n+1
+a(m+1,0) = a(m,1)
+a(m+1,n+1) = a(m, a(m+1,n))
+
+Writing out a(1,2):
+a(1,2) = a(0, a(1, 1))
+a(0, a(1, 1)) = a(0, a(0, a(1, 0)))
+a(0, a(0, a(1, 0))) = a(0, a(0, a(0, 1)))
+a(0, a(0, a(0, 1))) = a(0, a(0, 1))
+a(0, a(0, 1)) = a(0, 2)
+a(0, 2) = 3
+
+What are the biggest numbers n and m we can compute with?
+Given enough memory, it can compute any number... but recursive methods will eat up your computers memory real quick and give you an error.
+
+Can you find an interpretation of the A-function?
+I'm not sure what that means.
+I think that the A-function is used when you want to do some sort of addition of each iteration of a loop.
++1 to the # of iterations will add more than +1 to the value of the recursive function...?
