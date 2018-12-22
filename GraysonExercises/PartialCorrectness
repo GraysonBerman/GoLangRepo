@@ -1,0 +1,44 @@
+Partial correcteness of while-loops
+Exercise: What do the following two programs compute? What pre and postconditions can be used to formalise this?
+Find a loop invariant and use it to prove the partial correctness of this program.
+
+Program 1:    
+while (i < 100 ) do
+        y := y+x
+        i := i+1  
+    done
+    
+precondition: 0 <= i < 100
+post condition: i >= 100
+
+What is computed?
+For each iteration, x is added to y.
+It could be represented as a Riemann sum.
+
+The loop invariants:
+x does not change.
+
+What changes
+y = y + 100x
+i>= 100
+
+
+
+
+Program 2:
+  while  (i < k ) do
+        i := i+1 
+        y := y*i
+    done
+    
+pre conditions: 
+0 <= i < k
+k > 0
+post conditions: 
+i >= k
+Invariants:
+k = k
+What is computed?
+For each iteration, i is incremented by 1 and y is multiplied by i.
+This occurs until i >= k.
+It could be represented as a Riemann sum.
