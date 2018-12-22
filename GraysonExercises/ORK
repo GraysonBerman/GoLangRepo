@@ -1,0 +1,20 @@
+Given the rules:
+If the last letter is R you may add a K at the end 
+A string of the form Ox may be rewritten to Oxx
+You may replace any occurrence of RRR by K
+You may erase any occurrence of KK
+
+Describe an ARS with these rules:
+R->RK
+Ox->Oxx (where x is any letter)
+RRR -> K
+KK -> 
+
+Possible reduction of ORRORR
+ORRORR -> ORRRORRR using the rule Oxx->Oxx
+ORRRORRR-> OKOK using the rule RRR-> K
+OKOK -> OKKOKK using the rule Ox->Oxx
+OKKOKK -> OO using the rule KK->
+
+Can OK become OR?
+This is not possible. There isn't a way to reduce K's into R's, only R's into K's and K's into nothing.
