@@ -32,3 +32,20 @@ if m > n, m is made smaller.
 if m <= n, then n and m swap values.
 The only thing that can happen is that either m or n gets smaller, or the two are eventually equal.
 eventually they will both be equal or equal to 0 and it will terminate.
+
+
+******Partial Correctness**********
+For program 2,
+while m =/= n  do
+  if m > n then m : = m — n
+  else begin h :=m; m :=n; n := h end
+  
+In order for the loop to end, you could have m = 1, n = 2. This would terminate at the second iteration.
+if you have (m,n) = (1,2):
+first iteration:
+while (1 != 2)
+begin h:=m; m :=n; n :=h end // m = 2, n = 1
+Next iteration:
+while (2 != 1)
+  m = 2 - 1; // 1
+Next iteration, the inputs m and n are (1, 1) so the loop will terminate.
