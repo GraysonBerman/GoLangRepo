@@ -1,0 +1,21 @@
+What operations make sense for both sets and lists?
+
+Because a list is ordered and a set is unordered, some things work and others don't.
+You remove something from both - so search, and delete should work. 
+There is also some sort of append or insert function that you need to use to add to the set or list, but they will operate differently.
+Append/insert works easily for a list because all you need is a location. 
+A set's order is ambiguous, so adding a number to a set doesn't need a specific location.
+
+Copying an element and adding it back to the set/list would work.
+Any sort of arithmetic would work if they're a set of numbers and a list of numbers.
+
+Essentially, any operations that require an element to be in a specific location or order (inside of it's data structure) will
+not work for both.
+
+******
+How do lists and sets differ in terms of the equations and operations they satisfy?
+Their implementation may be different. Different search methods apply to both. When looking for an element in a set, you sort of
+scan through the whole set to see if any elements are equal to the value you're searching for.
+When looking for an element in a list, you can access it by location rather than searching through an entire set. 
+
+The specificity of a list allows for more precise operations which probably saves a lot of computation.
