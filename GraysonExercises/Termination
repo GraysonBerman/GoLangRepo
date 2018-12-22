@@ -1,32 +1,34 @@
 Two termination exercises below:
 
 1)
-Exercise: Show that whatever the test <TEST> the program below
-
+Exercise: Show that whatever the test <TEST> the program below terminates
+------------------
 while ub > lb + 1 do
 begin r : = (ub + lb) div 2;
 if <TEST> then ub := r else lb := r
 end 
+---------------
+We have a while loop with a nested if-then statement.
+In order for the loop to end, ub has to be <= lb + 1
+In the begin statement, r is equal to ub + lb divided by 2. This averages ub + lb. By assigning r to ub or lb, we close the gap between
+ub and lb. As long as ub > lb + 1, the averaged number r will be less than ub. 
+The test assigns r to ub as long as ub>lb+1, so ub will constantly decrease until ub <= lb + 1
 
 
 2) 
-Exercise: Show that the two programs
+Exercise: Show that the two programs terminate. Are there any assumptions you need do make the argument work?
 
+program1:
 while m =/= n do
   if m > n then m := m — n else n := n — m
-and
+The program is always decreasing the size of m or n. Eventually they will be decreased to 0 or they'll be equal, so it terminates.
+The only way that it will terminate is when m or n = 0, so both = 0.
 
+program2:
 while m =/= n  do
   if m > n then m : = m — n
   else begin h :=m; m :=n; n := h end
-terminate. Are there any assumptions you need do make the argument work?
-
-**************************
-
-1)
-
-
-
-
-2) 
-For the first program, we need to show that 
+if m > n, m is made smaller.
+if m <= n, then n and m swap values.
+The only thing that can happen is that either m or n gets smaller, or the two are eventually equal.
+eventually they will both be equal or equal to 0 and it will terminate.
