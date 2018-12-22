@@ -1,6 +1,32 @@
-1) To simplify, we only consider positive fractions. Define an equivalence relation ≡ on the set ℕ×ℕ such that the set ℕ×ℕ/≡ of equivalence classes is in bijective correspondence with positive fractions. 
+1) To simplify, we only consider positive fractions. Define an equivalence relation ≡ on the set ℕ×ℕ such that the set ℕ×ℕ/≡ of 
+   equivalence classes is in bijective correspondence with positive fractions. 
   (Hint: ≡ needs to capture that, eg, in mathematics 1/3=2/6; this will correspond to (1,3)≡(2,6).[2])
 2) Define an ARS (ℕ×ℕ,→) that has unique normal forms. Argue why your ARS has unique normal forms.
 3) Explain how to add and multiply normal forms.
 
 
+1)
+ax/bx -> a/b
+simplify fractions by reducing them
+a%b > 0
+Using a%b >0 shows that the fraction can't be simplified further
+This leaves only simplified fractions, which match with only one positive fraction.
+
+2) Define an ARS (ℕ×ℕ,→) that has unique normal forms
+(ℕ×ℕ,→)
+(a,b) -> (a-1, b)
+a < b
+The two rules above make it so that every numerator is decremented by 1, so there is only one normal form for each number.
+It also means that every normal form is unique (normal form a/b can only be reached by a+1/b)
+a%b > 0
+ax/bx -> a/b
+The two rules above make it so that you only have simplified fractions
+
+3)
+To add and multiply normal forms:
+a/b * c/d = ac/bd
+multiplication of fractions
+a/b * x = ax/b
+Multiplication by a constant
+a/b  +c/d = (da + cb)/bd
+addition: get LCD and add the numerators above the LCD
