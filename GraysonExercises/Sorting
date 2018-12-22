@@ -1,0 +1,35 @@
+max(0,x) -> x
+max(x,0) -> x 
+max(s(x),s(y)) -> s(max(x,y))
+min(0,x) -> 0
+min(x,0) -> 0
+min(s(x),s(y)) -> s(min(x,y))
+sort([]) -> [] 
+sort([x | xs]) -> insert(x,xs)
+insert(x,[]) -> [x]
+insert(x,[y|ys]) -> [min(x,y)|insert(max(x,y),ys)]
+
+Exercises:
+Give small examples of reductions for each of min, max, sort, insert.
+Discuss the properties of termination, confluence, unique normal forms in this example.
+In what sense, if at all, is it appropriate to consider min, max, sort, insert as functions? 
+Your answer should make use of what we learned about syntax and semantics.
+
+1) Small examples of reductions
+min(0, 1) -> 0
+min (2, 4) -> 2(min(1,2))
+max (0, 5) -> 5
+max (2,4) -> 2(max(1,2))
+sort([y|ys])-> insert(y|ys)
+insert (1, []) -> [1]
+insert(1, [2|2s] -> [min(1,2)|insert(max(1,2), 2s)]
+
+Min and Max rules are terminating - it takes two inputs and gives out one. Cannot be done indefinitely. They are confluent.
+They have normal forms, but not unique normal forms. max (0,x) and max (x,0) both have the normal form x. 
+
+Sort and insert are not terminating - operations can be performed indefinitely. They are confluent: you can rearrange any set in any order
+using the sort and insert rules. There are not normal forms though, so does that mean it can't be confluent? I don't remember if confluence
+ends in a normal form.
+
+You can consider them all functions because they take an input and give an output. The outcome is dependant on the input (semantics),
+but the process is always performed the same way (syntax)
