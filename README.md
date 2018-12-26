@@ -17,7 +17,10 @@
 
 ### Project Code
 
+[Installing Go](https://github.com/GraysonBerman/GoLangRepo/blob/master/Blogs/InstallingGo.md)
+
 [Project code](https://github.com/GraysonBerman/GoLangRepo/blob/master/testPinger)
+
 
 ### Grayson's Exercises
 
