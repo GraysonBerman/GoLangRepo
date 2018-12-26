@@ -16,9 +16,9 @@
   3) Final blog posts 
 
 
+[Project code](https://github.com/GraysonBerman/GoLangRepo/blob/master/testPinger)
 
-
-Grayson's Exercises
+### Grayson's Exercises
 
 [A-Function:](https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/A-Function)
 
