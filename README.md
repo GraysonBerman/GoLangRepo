@@ -14,3 +14,37 @@
   1) Test the final program
   2) Verify accurate results
   3) Final blog posts 
+
+
+
+
+
+[A-Function:](https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/A-Function)
+
+Fractions: https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Fractions
+
+LamdaCalcANDORNOT:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/LambdaCalcANDORNOTRules
+
+ORK:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/ORK
+
+Partial Correctness:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/PartialCorrectness
+
+
+Sets and Lists:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/SetsAndLists
+
+Sorting:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Sorting
+
+String Rewriting:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/StringRewriting
+
+TRS:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/TRS
+
+Termination:
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Termination
+
