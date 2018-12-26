@@ -21,30 +21,29 @@
 
 [A-Function:](https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/A-Function)
 
-Fractions: https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Fractions
+[Fractions: ](https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Fractions)
 
-LamdaCalcANDORNOT:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/LambdaCalcANDORNOTRules
+[LamdaCalcANDORNOT:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/LambdaCalcANDORNOTRules)
 
-ORK:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/ORK
+[ORK:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/ORK)
 
-Partial Correctness:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/PartialCorrectness
+[Partial Correctness:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/PartialCorrectness)
 
 
-Sets and Lists:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/SetsAndLists
+[Sets and Lists:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/SetsAndLists)
 
-Sorting:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Sorting
+[Sorting:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Sorting)
 
-String Rewriting:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/StringRewriting
+[String Rewriting:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/StringRewriting)
 
-TRS:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/TRS
+[TRS:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/TRS)
 
-Termination:
-https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Termination
-
+[Termination:](
+https://github.com/GraysonBerman/GoLangRepo/blob/master/GraysonExercises/Termination)
